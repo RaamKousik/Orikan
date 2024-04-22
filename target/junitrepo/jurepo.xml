@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.674181">
+    <testcase classname="To verify the account creation feature in orikan website" name="To create an new account in orikan site" time="25.387586">
+        <system-out>
+            <![CDATA[Given To launch the browser and launch orikan url...........................passed
+When To pass datas into email, password, confirm password into required text box and click next button.passed
+And To pass datas into firstname, lastname, address, postcode, city in required field.passed
+And To select state in state drop down and click next.......................passed
+And To pass datas into holdername, cardnumber, cvvnumber, expiry year in required field.passed
+And To select master card and choose state and click next...................passed
+And To enable agreement checkbox and click submit...........................passed
+And To verify the text account is successfully registered...................passed
+Then To close browser.......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="To verify the account creation feature in orikan website" name="To create and account with another email" time="5.286595">
+        <system-out>
+            <![CDATA[Given To launch the browser and launch orikan url...........................passed
+When To pass datas into email, password, confirm password field.............passed
+And To click login button...................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
